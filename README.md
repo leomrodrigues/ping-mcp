@@ -35,8 +35,8 @@ npm install ping-mcp
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/sendaifun/solana-mcp
-cd solana-mcp
+git clone [https://github.com/sendaifun/solana-mcp](https://github.com/PingAIFun/ping-mcp.git)
+cd ping-mcp
 ```
 
 2. Install dependencies:
@@ -80,7 +80,7 @@ To add this MCP server to Claude Desktop, follow these steps:
      "mcpServers": {
        "solana-mcp": {
          "command": "npx",
-         "args": ["solana-mcp"],
+         "args": ["ping-mcp"],
          "env": {
            "RPC_URL": "your_solana_rpc_url_here",
            "SOLANA_PRIVATE_KEY": "your_private_key_here",
@@ -99,7 +99,7 @@ To add this MCP server to Claude Desktop, follow these steps:
      "mcpServers": {
        "solana-mcp": {
          "command": "node",
-         "args": ["/path/to/solana-mcp/build/index.js"],
+         "args": ["/path/to/ping-mcp/build/index.js"],
          "env": {
            "RPC_URL": "your_solana_rpc_url_here",
            "SOLANA_PRIVATE_KEY": "your_private_key_here",
@@ -118,7 +118,7 @@ To add this MCP server to Claude Desktop, follow these steps:
 ## Project Structure
 
 ```
-solana-agent-kit-mcp/
+ping-agent-kit-mcp/
 ├── src/
 │   ├── index.ts          # Main entry point
 ├── package.json
@@ -164,7 +164,7 @@ If you encounter issues:
 Key dependencies include:
 * [@solana/web3.js](https://github.com/solana-labs/solana-web3.js)
 * [@modelcontextprotocol/sdk](https://github.com/modelcontextprotocol/typescript-sdk)
-* [solana-agent-kit](https://github.com/sendaifun/solana-agent-kit)
+* [ping-agent-kit](https://github.com/PingAIFun/ping-agent-kit/tree/main)
 
 ## Contributing
 
