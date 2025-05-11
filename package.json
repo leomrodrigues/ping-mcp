@@ -1,0 +1,44 @@
+{
+  "name": "ping-mcp",
+  "version": "1.0.0",
+  "description": "A Model Context Protocol server for interacting with the Solana blockchain, powered by the Ping Agent Kit,
+  "main": "build/index.js",
+  "type": "module",
+  "bin": {
+    "solana-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsx watch src/index.ts"
+  },
+  "files": [
+    "build"
+  ],
+  "repository": {
+    "type": "git",
+  },
+  "keywords": [
+    "solana",
+    "mcp",
+    "ping-agent-kit",
+    "ping-mcp"
+  ],
+  "author": "pingaifun",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "solana-agent-kit": "1.4.9"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.4",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@9.14.2"
+}
