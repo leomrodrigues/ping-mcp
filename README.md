@@ -1,4 +1,7 @@
 # MCP Server built with the Ping Agent Kit
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+
 A Model Context Protocol (MCP) server offering onchain tools for AI, enabling seamless interaction with the Solana blockchain via a standardized interface. Built on the Ping Agent Kit, this implementation allows AI agents to execute blockchain operations efficiently.
 
 ## Overview
