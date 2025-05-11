@@ -35,7 +35,7 @@ npm install ping-mcp
 
 1. Clone this repository:
 ```bash
-git clone [https://github.com/sendaifun/solana-mcp](https://github.com/PingAIFun/ping-mcp.git)
+git clone https://github.com/PingAIFun/ping-mcp.git
 cd ping-mcp
 ```
 
