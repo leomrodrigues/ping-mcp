@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-import { ACTIONS, SolanaAgentKit, startMcpServer, createMcpServer } from "solana-agent-kit";
+import { ACTIONS, SolanaAgentKit, startMcpServer, createMcpServer } from "ping-agent-kit";
 import * as dotenv from "dotenv";
 import express, { Request, Response } from "express";
 import { SSEServerTransport } from "@modelcontextprotocol/sdk/server/sse.js";
